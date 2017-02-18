@@ -6,4 +6,5 @@ HTML export from a Keynote presentation. Videos excluded due to file size.
 * [Sex Tape Thrailer](https://www.youtube.com/watch?v=0Kb245BanyI)
 
 ## Run presentation
-[Start presentation](./index.html)
+* checkout branch
+* start ./index.html 
