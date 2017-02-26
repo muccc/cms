@@ -1,4 +1,4 @@
-# Speaker guidlines
+# Speaker guidline
 CMS Talk für den Studientag am Donnerstag den 23.02.2017 in den [Nymphenburger Schulen München](http://www.nymphenburger-schulen.de/).
 
 ## Chapter: CMS / CCC
@@ -38,12 +38,15 @@ Der Speaker geht auf die Infrastruktur der Schule mit eigenem WLAN (nymphlan) ei
 ## Chapter: Was kosten SoMe Dienste
 ### Ziele
 * Bei kostenlosen Diensten zahlt man mit seine eigenen Daten
-* Ist der Dienst das für mich Wert
+* Ist der Dienst es mir Wert, dass ich dafür mit meinen Persönlichendaten zahle?
+	* Es geht nicht darum, dass die Dienste nicht genutzt werden sollen!
+	* Wie bei Geld, z.B. Netflix, muss man sich überlegen, ob es einem die 8,99EUR im Monat wert ist.
+	* Bewusste Entscheidung fällen.
 * Datensparsamkeit
 
 ## Chapter: Password
 ### Ziele
 * Passwort soll keine Details aus dem Leben beinhalten
-* Passwort soll nicht auch „echten“ Wörtern bestehen
+* Passwort soll nicht „echten“ Wörtern beinhalten
 * Nutzt für jeden Dienst ein eigenes Passwort
 * Benutzt einen Passwort Safe
