@@ -12,7 +12,8 @@ the file in your browser.
 * Resolution independent (slides are scaled according to the size of the browser. The virtual dimension is 800x600);
 * Fullscreen presentation (HTML5 FullScreen API supported) - press `f` to go fullscreen;
 * Incremental content;
-* Mobile Friendly (supports touch events).
+* Mobile Friendly (supports touch events);
+* Printing to PDF
 
 ## Shells
 
@@ -80,3 +81,8 @@ Parameters a DZSlides page can have:
       TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
     0. You just DO WHAT THE FUCK YOU WANT TO.
+
+## Todo ideas
+
+* Allow many elements to have the same `next-order` number — and activate them all at the same time.
+* 2D presentation structure as in flowtime.js or reveal.js. Many presentations fit naturally into it, even in this `template.html` slides could be arranged in a 2D grid (in the overview) where every Part starts a new row of slides.

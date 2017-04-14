@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
+
 <title>Chaos Macht Schule</title>
   <figure class="tint">
     <img src="static/Chaosknoten.svg">
@@ -815,10 +816,10 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
 </section
 
 
-<!-- Your Style -->
-<!-- Define the style of your presentation -->
+<!--
+content
+-->
 
-<!-- Maybe a font from http://www.google.com/webfonts ? -->
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
 <style>
@@ -1015,6 +1016,8 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
   }
 </style>
 
+
+
 <!-- {{{{ dzslides core
 #
 #
@@ -1033,11 +1036,13 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
 
 <!-- Default Style -->
 <style>
-  * { margin: 0; padding: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
   [role="note"] { display: none; }
+  html {
+    font-size: 16px;
+  }
   body {
     width: 800px; height: 600px;
-    margin-left: -400px; margin-top: -300px;
     position: absolute; top: 50%; left: 50%;
     overflow: hidden;
     display: none;
@@ -1050,10 +1055,6 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
     overflow: visible; overflow-x: hidden;
     /* undo Dz.onresize */
     transform: none !important;
-    -moz-transform: none !important;
-    -webkit-transform: none !important;
-    -o-transform: none !important;
-    -ms-transform: none !important;
   }
   .view head, .view head > title { display: block }
   section {
@@ -1069,29 +1070,60 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
     float: left;
 
     transform: scale(.4);
-    -moz-transform: scale(.4);
-    -webkit-transform: scale(.4);
-    -o-transform: scale(.4);
-    -ms-transform: scale(.4);
   }
   .view section > * { pointer-events: none; }
   section[aria-selected] { pointer-events: auto; }
   html { overflow: hidden; }
   html.view { overflow: visible; }
   body.loaded { display: block; }
-  .incremental {visibility: hidden; }
-  .incremental[active] {visibility: visible; }
+  .next:not([active]) {visibility: hidden; }
   #progress-bar{
     bottom: 0;
     position: absolute;
-    -moz-transition: width 400ms linear 0s;
-    -webkit-transition: width 400ms linear 0s;
-    -ms-transition: width 400ms linear 0s;
     transition: width 400ms linear 0s;
   }
   .view #progress-bar {
     display: none;
   }
+  header {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .view header { display: none; }
+  .view footer { display: none; }
+
+@media print {
+  section {
+    transition: none;
+    transform: none;
+    position: static;
+    page-break-inside: avoid;
+  }
+  body { overflow: visible; }
+  #progress-bar{ display:none; }
+}
+
+/*
+   **************************************
+   Uncomment the following for 16:9 slides
+   **************************************
+
+  html { font-size: 12px; }
+  body { height: 450px; }
+  .view section {
+    height: 450px;
+    margin: -140px -200px;
+    transform: scale(.3);
+  }
+*/
 </style>
 
 <script>
@@ -1168,7 +1200,9 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
       aEvent.preventDefault();
       this.goFullscreen();
     }
-    if (aEvent.keyCode == 79) { // o
+    if (aEvent.keyCode == 79    //o
+     || aEvent.keyCode == 27    //Esc
+    ) {
       aEvent.preventDefault();
       this.toggleView();
     }
@@ -1222,12 +1256,9 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
     var sx = db.clientWidth / window.innerWidth;
     var sy = db.clientHeight / window.innerHeight;
     var transform = "scale(" + (1/Math.max(sx, sy)) + ")";
-
-    db.style.MozTransform = transform;
-    db.style.WebkitTransform = transform;
-    db.style.OTransform = transform;
-    db.style.msTransform = transform;
     db.style.transform = transform;
+    db.style.marginTop = -db.clientHeight / 2 + "px";
+    db.style.marginLeft = -db.clientWidth / 2 + "px";
   }
 
 
@@ -1295,7 +1326,7 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
     if (cursor.length == 2) {
       newidx = ~~cursor[1].split(".")[0];
       newstep = ~~cursor[1].split(".")[1];
-      if (newstep > Dz.slides[newidx - 1].$$('.incremental > *').length) {
+      if (newstep > Dz.slides[newidx - 1].$$('.next').length) {
         newstep = 0;
         newidx++;
       }
@@ -1313,24 +1344,22 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
   }
 
   Dz.back = function() {
-    if (this.idx == 1 && this.step == 0) {
+    if (this.idx == 1) {
       return;
     }
-    if (this.step == 0) {
-      this.setCursor(this.idx - 1,
-                     this.slides[this.idx - 2].$$('.incremental > *').length);
-    } else {
-      this.setCursor(this.idx, this.step - 1);
-    }
+    this.setCursor(this.idx - 1,
+                   this.slides[this.idx - 2].$$('.next[active]').length);
   }
 
   Dz.forward = function() {
     if (this.idx >= this.slides.length &&
-        this.step >= this.slides[this.idx - 1].$$('.incremental > *').length) {
+        this.step >= this.slides[this.idx - 1].$$('.next').length) {
         return;
     }
-    if (this.step >= this.slides[this.idx - 1].$$('.incremental > *').length) {
-      this.setCursor(this.idx + 1, 0);
+    if (this.html.classList.contains("view") ||
+        this.step >= this.slides[this.idx - 1].$$('.next').length) {
+      this.setCursor(this.idx + 1,
+                     this.slides[this.idx].$$('.next[active]').length);
     } else {
       this.setCursor(this.idx, this.step + 1);
     }
@@ -1342,7 +1371,7 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
 
   Dz.goEnd = function() {
     var lastIdx = this.slides.length;
-    var lastStep = this.slides[lastIdx - 1].$$('.incremental > *').length;
+    var lastStep = this.slides[lastIdx - 1].$$('.next').length;
     this.setCursor(lastIdx, lastStep);
   }
 
@@ -1369,10 +1398,11 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
       next.setAttribute("aria-selected", "true");
       if (this.html.classList.contains("view")) {
         next.scrollIntoView();
-      }
-      var video = next.$("video");
-      if (video && !!+this.params.autoplay) {
-        video.play();
+      } else {
+        var video = next.$("video");
+        if (video && !!+this.params.autoplay) {
+          video.play();
+        }
       }
     } else {
       // That should not happen
@@ -1383,33 +1413,14 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
 
   Dz.setIncremental = function(aStep) {
     this.step = aStep;
-    var old = this.slides[this.idx - 1].$('.incremental > *[aria-selected]');
-    if (old) {
-      old.removeAttribute('aria-selected');
-    }
-    var incrementals = $$('.incremental');
-    if (this.step <= 0) {
-      $$.forEach(incrementals, function(aNode) {
-        aNode.removeAttribute('active');
-      });
-      return;
-    }
-    var next = this.slides[this.idx - 1].$$('.incremental > *')[this.step - 1];
+    var incrementals = Array.prototype.slice.call(this.slides[this.idx - 1].$$('.next')).sort(function(a, b) {
+            return Number(a.getAttribute('next-order')) - Number(b.getAttribute('next-order'));
+          });
+    var next = incrementals[this.step - 1];
     if (next) {
-      next.setAttribute('aria-selected', true);
-      next.parentNode.setAttribute('active', true);
-      var found = false;
-      $$.forEach(incrementals, function(aNode) {
-        if (aNode != next.parentNode)
-          if (found)
-            aNode.removeAttribute('active');
-          else
-            aNode.setAttribute('active', true);
-        else
-          found = true;
-      });
+      next.setAttribute('active', true);
     } else {
-      setCursor(this.idx, 0);
+      this.setCursor(this.idx, 0);
     }
     return next;
   }
@@ -1426,7 +1437,7 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
     var slide = $("section:nth-of-type("+ aIdx +")");
     if (!slide)
       return;
-    var steps = slide.$$('.incremental > *').length + 1,
+    var steps = slide.$$('.next').length + 1,
         slideSize = 100 / (this.slides.length - 1),
         stepSize = slideSize / steps;
     this.progressBar.style.width = ((aIdx - 1) * slideSize + aStep * stepSize) + '%';
@@ -1448,10 +1459,8 @@ Das Recht auf informationelle Selbstbestimmung ist im bundesdeutschen Recht das 
   }
 
   window.onload = init;
-</script>
 
-
-<script> // Helpers
+  // Helpers
   if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
 
