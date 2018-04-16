@@ -271,7 +271,6 @@
         </div>
         <div style="clear: both;"></div>
     </div>
-    <div role="note">AdAway basiert auf den gleichen Listen die z.B. uBlock und Disconnect nutzen</div>
 </section>
 
 <!-- Folgerung -->
@@ -311,7 +310,7 @@
     <footer>
         If you don't pay for a product, you're the product!
     </footer>
-    <div role="note">* Gegenwert meiner Datenten z.B. Netflix pro Monat ca. 10€</div>
+    <div role="note">* Gegenwert meiner Daten z.B. Netflix pro Monat ca. 10€, 22 - 67 € bei Facebook</div>
 </section>
 
 <section>
@@ -343,7 +342,11 @@
 
 <section>
     <h3>Passwortmanager</h3>
+<<<<<<< HEAD
     <p>Für jeden Dienst sollte ein eigenes Passwort verwendet werden.</p>
+=======
+    <p>Für jeden Dienst ein eigenes Password verwenden!</p>
+>>>>>>> Mobbing + Passwörter Cloud
     <ul>
         <li><a href="https://keepass.info" target="_blank">KeePass</a> oder <a href="https://www.keepassx.org" target="_blank">KeePassX</a></li>
         <li><a href="https://1password.com" target="_blank">1password</a>
