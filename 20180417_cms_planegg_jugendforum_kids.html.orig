@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+<title>Chaos macht Schule</title>
+<figure class="tint">
+    <img src="static/Chaosknoten.svg">
+</figure>
+<!-- Your Slides -->
+<!-- One section is one slide -->
+
+<!-- # Intro -->
+<section>
+    <h1>Chaos macht Schule</h1>
+    <div role="note">for Kids</div>
+</section>
+
+<!-- # Dienste -->
+<section>
+    <h2>Welche Dienste nutzt ihr im Internet?</h2>
+</section>
+
+<!-- ## Suche -->
+<section>
+    <h2>Suche</h2>
+    <img class="next" src="static/Google_2015_logo.svg" style="position:absolute;top:16%;left:8%;" width=230px />
+    <img class="next" src="static/Bing_logo_(2016).svg" style="position:absolute;top:16%;right:8%;" width=230px />
+    <img class="next" src="static/DuckDuckGo_logo_and_wordmark_(2014-present).svg" style="position:absolute;bottom:16%;left:8%;" width=230px />
+    <img class="next" src="static/no_tm_ixquick_retina_logo_spbyix_eng.png" style="position:absolute;bottom:16%;right:8%;" width=230px />
+    <img class="next" src="static/Logo_searx_a.png" style="position:absolute;bottom:42%;right:8%;" width=230px />
+</section>
+
+<!-- ## Soziale Netzwerke -->
+<section>
+    <h2>Soziale Netzwerke</h2>
+    <img class="next" src="static/132px-Instagram_logo_2016.svg.png" style="position:absolute;top:3%;left:8%;" width=180px />
+    <img class="next" src="static/Facebook_New_Logo_(2015).svg" style="position:absolute;top:16%;right:8%;" width=230px />
+    <img class="next" src="static/Twitter_bird_logo_2012.svg" style="position:absolute;bottom:16%;left:8%;" width=180px />
+    <img class="next" src="static/Google+_logo.svg" style="position:absolute;bottom:16%;right:8%;" width=280px />
+</section>
+
+<!-- ## Messenger -->
+<section>
+    <h2>Messenger</h2>
+    <img class="next" src="static/WhatsApp.svg" style="position:absolute;top:8%;left:8%;" width=180px />
+    <img class="next" src="static/Snapchat_logo.svg" style="position:absolute;top:8%;right:8%;" width=180px />
+    <img class="next" src="static/Facebook_Messenger_logo.svg" style="position:absolute;bottom:16%;left:8%;" width=180px />
+    <img class="next" src="static/Threema.png" style="position:absolute;bottom:8%;right:8%;" width=230px />
+    <img class="next" src="static/Signal_Blue_Icon.png" style="position:absolute;bottom:16%;right:38%;" width=180px />
+</section>
+
+<!-- ## News -->
+<section>
+    <h2>News</h2>
+    <img class="next" src="static/unsplash_newspaper.jpg" style="position:absolute;top:8%;left:8%;" width=230px/>
+    <img class="next" src="static/YouTube_Logo_2017.svg" style="position:absolute;top:16%;right:8%;background:white" width=230px />
+    <img class="next" src="static/tagesschau.png" style="position:absolute;bottom:8%;left:8%;" width=180px />
+    <img class="next" src="static/sz.png" style="position:absolute;bottom:8%;right:8%;" width=180px />
+    <img class="next" src="static/flipboard.png" style="position:absolute;bottom:8%;right:38%;" width=180px />
+</section>
+
+<!-- ## Services / Dienste -->
+<section>
+    <h2>Dienste</h2>
+    <img class="next" src="static/Amazon_Alexa_Logo.png" style="position:absolute;top:16%;left:8%;background:white;" width=230px />
+    <img class="next" src="static/Fitbit_logo16.svg" style="position:absolute;top:16%;right:8%;background:white;" width=230px />
+    <img class="next" src="static/Dropbox_logo_2017.svg" style="position:absolute;bottom:16%;left:8%;background:white;" width=230px />
+    <img class="next" src="static/sleep.png" style="position:absolute;bottom:8%;right:8%;" width=180px />
+    <img class="next" src="static/GoogleMaps.svg" style="position:absolute;right:36%;bottom:23%;" width=230px />
+</section>
+
+<!-- # Was kostet Facebook & Co -->
+<section>
+    <img src="static/unsplash_cute_comfortable_dog.jpg" height=100%>
+    <div role="note">Ganz schön praktisch <br> Aber digitale Sorglosigkeit <br> Was steckt dahinter?</div>
+</section>
+
+<!-- ## Aber da steckt auch ganz schoen viel dahinter, was man so nicht sieht -->
+<section>
+    <figure>
+        <video src="video/datacenter.mp4">
+            <!-- https://www.youtube.com/watch?v=avP5d16wEp0-->
+      </video>
+        <figcaption>
+            Ein Google Rechenzentrum
+        </figcaption>
+    </figure>
+</section>
+
+<!-- ## Die gibt's ganz oft auf der welt (allein von google) -->
+<section>
+    <figure>
+        <img src="static/datacenter.jpg">
+    </figure>
+</section>
+
+<!-- ## Wieviel Geld zahlt ihr monatlich an Google? -->
+<section>
+    <h2>Wieviel Geld zahlt ihr monatlich an Google?</h2>
+</section>
+
+<!-- ## Pig: isn't it grate -->
+<section>
+    <img src="static/pigs.jpg" class="cent">
+</section>
+
+<!-- ## Google, Facebook, etc. finanzieren sich fast ausschließlich über Werbung. -->
+<section>
+    <h3>Google, Facebook, etc. finanzieren sich fast ausschließlich über Werbung. <br />Daher</h3>
+    <ul>
+        <li class="next">...wollen wir sehen, wie Werbung funktioniert,</li>
+        <li class="next">...wie Werbung finanziert wird, und </li>
+        <li class="next">...wie das Internet die Werbung verändert </li>
+    </ul>
+</section>
+
+<!-- ## Werbe-Industrie sehr viel über uns Konsumenten gewusst -->
+<section>
+    <h3>Auch schon ohne Internet hat die Werbe-Industrie sehr viel über uns Konsumenten gewusst!</h3>
+</section>
+
+<section>
+    <img src="static/einteilung_in_gruppen.png" width=100%>
+    <footer>Profile: Konsumenten werden z.B nach Kaufkraftklassen eingeteilt</footer>
+    <!--Quelle: http://www.sinus-institut.de/sinus-loesungen/microm-geo-milieus/ -->
+</section>
+
+<section>
+    <img src="static/kaufkraft_ausschnitt_hamburg.png" width=100%>
+    <footer>
+        Und die Werbeindustrie weiß, wo die passenden Konsumenten wohnen
+    </footer>
+    <!--Quelle: http://www.sinus-institut.de/sinus-loesungen/microm-geo-milieus/ -->
+</section>
+
+
+<!-- Werbung, kennt ihr alle.
+
+  Aber, was liegt dahinter?
+
+  Es wird Aufmerksamkeit verkauft -->
+
+<!-- Symbolbild -->
+
+<section>
+    <img src="static/post-58878-Clockwork-Orange-eye-drop-scen-Zt17.gif" width=100%>
+    <footer>Das Geschäftsmodell von Google, Facebook & Co: <br>
+        <i>Verkaufe die Aufmerksamkeit deiner Nutzer möglichst zielgenau an Werbekunden.<br>
+          Für die Zielgenauigkeit bilde Profile deiner Nutzer.<br>
+          Halte die Benutzer so lange wie möglich auf der Website</i></footer>
+    <div role="note">Das Geschäftsmodell im Internet</div>
+</section>
+
+<section>
+    <img src="static/umsatz_google_und_facebook.png" width=100%>
+</section>
+
+<section>
+    <img style="margin:0px auto;display:block" src="static/aufteilung_kosten_turnschuh.png" width=85%>
+    <footer>
+        Wer bezahlt das? Der Anteil der Werbung am Endpreis ist bei manchen Produkten bei fast 10%
+    </footer>
+    <!--Quelle cleanclothes.org, neuere Zahlen bei cleanclothes.at -->
+</section>
+
+<section>
+    <h3>Was passiert bei der Werbung im Internet?</h3>
+    <ul>
+        <li><a href="http://www.adidas.de/" target="_blank">Adidas</a></li>
+        <li><a href="http://www.bild.de/" target="_blank">Bild Online</a></li>
+        <li><a href="http://www.sueddeutsche.de/" target="_blank">Süddeutsche Zeitung</a></li>
+        <li><a href="http://www.spiegel.de/" target="_blank">Spiegel Online</a></li>
+    </ul>
+</section>
+
+<!-- Die Prioritaet der Dienste liegt in der besseren bindung von aufmerksamkeit
+
+  Je mehr Daten man hat, desto besser kann man den Nutzer kontrollieren
+
+  Datenverarbeitung wird allgegenwaertig -->
+
+<!-- Symbolbild Datensammlung -->
+
+<section>
+    <img src="static/unsplash_camera_wall.jpg" height=100% />
+    <div role="note">Je mehr Daten man hat, desto besser kann man den Nutzer kontrollieren</div>
+</section>
+
+<section>
+    <img class="cent" src="static/smartphone_watcher.png" width=50%>
+    <footer>Auch die Smartphone Apps beobachten uns</footer>
+</section>
+
+<section>
+    <img style="margin:0px auto;display:block" src="static/analyse_tippverhalten.png" height=100%>
+</section>
+
+<section>
+    <img src="static/prognosen_aus_likes.png" width=100%>
+    <footer>Jetzt weiß die Werbe-Industrie noch mehr über uns - denn die Facebook Likes sind öffentlich.</footer>
+    <!--Quelle: KOMMERZIELLE DIGITALE ÜBERWACHUNG IM ALLTAG; Cracked Labs – Institut für Kritische Digitale Kultur http://crackedlabs.org Projektleitung und Autor: Wolfie Christl im Auftrag der Arbeiterkammer Wien Oktober 2014 -->
+</section>
+
+<section>
+    <img src="static/bedeutung.png" width=100%>
+</section>
+
+
+<!-- Wir haben viel darueber geredet wo Daten gesammelt werden und was damit passiert,
+  was koennen wir denn verwenden um uns zu schuetzen -->
+
+<section>
+    <h3>Was mache ich gegen Werbung und Tracking?</h3>
+    <ul>
+        <li class="next">uBlock Origin / uMatrix</li>
+        <li class="next">Privacy Badger</li>
+        <li class="next">AdBlock</li>
+        <li class="next">Disconnect / Ghostery</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Messenger-Alternativen</h3>
+    <ul>
+        <li class="next" next-order="1">Signal</li>
+        <li class="next" next-order="2">Matrix / Riot</li>
+        <li class="next" next-order="3">Threema</li>
+    </ul>
+    <img class="next" next-order="1" src="static/Signal_Blue_Icon.png" style="position:absolute;bottom:16%;left:8%;" width=90px />
+    <img class="next" next-order="2" src="static/Matrix_logo1.png" style="position:absolute;bottom:20%;left:42%;background:white;" width=90px />
+    <img class="next" next-order="3" src="static/Threema.png" style="position:absolute;bottom:16%;right:16%;" width=90px />
+</section>
+
+<section>
+    <h3>Suchmaschinen-Alternativen</h3>
+    <ul>
+        <li class="next" next-order="1">DuckDuckGo!</li>
+        <li class="next" next-order="2">Startpage</li>
+    </ul>
+    <img class="next" next-order="1" src="static/DuckDuckGo_logo_and_wordmark_(2014-present).svg" style="position:absolute;bottom:16%;left:8%;" width=180px />
+    <img class="next" next-order="2" src="static/no_tm_ixquick_retina_logo_spbyix_eng.png" style="position:absolute;bottom:18%;right:16%;" width=180px />
+</section>
+
+<section>
+    <img src="static/windows10.png" width=100%>
+</section>
+
+<!-- ## AdBlocker Android -->
+<section>
+    <h3>Lineage OS auf dem Andriod</h3>
+    <ul>
+        <li class="next">Auf sehr vielen Android Smartphones (auch älteren) lässt sich Lineage OS installieren (www.lineageos.org).</li>
+        <li class="next">Dies erlaubt, AdBlocker, wie z.B. AdAway, zu installieren</li>
+        <li class="next">Zusätzlich erhält man wöchentlich oder monatlich Sicherheits-Updates</li>
+    </ul>
+    <div role="note">AdAway basiert auf den gleichen Listen die z.B. uBlock und Disconnect nutzen</div>
+</section>
+
+<!-- ## AdBlocker iOS -->
+<section>
+    <h3>AdBlocker auf dem iPhone</h3>
+    <div>
+        <div style="float: left; width: 15em; height: 15em;">
+            <ul>
+                <li>Inhaltsblocker Apps installieren</li>
+                <li>Im standard Browser Safari aktivieren</li>
+            </ul>
+        </div>
+        <div>
+            <img src="./static/inhaltsblocker-ios.jpg">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</section>
+
+<!-- Folgerung -->
+<section>
+    <h2>Was kann ich selbst tun?</h2>
+</section>
+
+<section>
+    <h3>Darum fragt um Erlaubnis bevor ihr</h3>
+    <ul>
+        <li>...Texte über andere veröffentlicht</li>
+        <li>...Fotos von anderen hochladet</li>
+        <li>...Personen auf Fotos tagged</li>
+        <li>Und veröffentlicht bewusst über euch selbst</li>
+    </ul>
+    <div role="note">Was geben ich von mir preis?</div>
+</section>
+
+<section>
+    <h3>"Verlorene" Benutzerkonten</h3>
+    <img class="next" next-order="1" src="./static/password-breach.png" style="position:absolute;bottom:1%;left:5%;" />
+    <div role="note">
+        * Yahoo: 40% der Weltbevölkerung - Account bei Yahoo?<br/>
+        * myfitnesspal: Gesundheitsdaten = Wert 10x-20x CC Daten<br/>
+        * Sony Entertainment: Wer hat eine Playstation?<br/>
+        * Equifax: Schufa der USA<br/>
+    </div>
+</section>
+
+<section>
+    <h3>Datensparsamkeit</h3>
+    <ul>
+        <li>So wenig Daten wie möglich preisgeben</li>
+        <li>Was bietet mir der Dienst? Sind meine abzugebenden Daten dies wert?</li>
+        <li>Welche Daten veröffentliche ich von mir? Welchen Eindruck hinterlassen diese? In der Zukunft?</li>
+    </ul>
+    <footer>
+        If you don't pay for a product, you're the product!
+    </footer>
+    <div role="note">* Gegenwert meiner Daten z.B. Netflix pro Monat ca. 10€, 22 - 67 € bei Facebook</div>
+</section>
+
+<section>
+    <h3>Passwörter</h3>
+    <ul>
+        <li class="next">Desto länger desto besser (> 8 Zeichen)</li>
+        <li class="next">Keine Tastenwiederholung "asdf" o. "123456"</li>
+        <li class="next">Keine Wörter aus dem Wörterbuch</li>
+        <li class="next">Passwort sollte keinen Bezug auf einen selbst haben</li>
+        <li class="next">Alle Zeichen nutzen A-Z / Groß- Kleinschreibung / 0-9 / Sonderzeichen</li>
+        <li class="next">Umlaute vermeiden</li>
+        <li class="next">Kein "leichtes" Passwort mit Sonderzeichen "!§$%" am Ende ergänzen</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Passwörter erfinden und merken</h3>
+
+    <p>
+        Leitsatz: "Ich finde das Jugendforum in Plannegg ganz toll und komme gerne jedes Jahr wieder"<br/>
+        <br/>
+        Erster Buchstabe der Wörter:<br/>
+        <b>IfdJiPgtukgjJw</b><br/>
+        <br/>
+        Vereint mit <a href="https://de.wikipedia.org/wiki/Leetspeak" target="_blank">Leetspeak</a><br/>
+        <b>!fdJ1Pgt&kgjJw</B>
+    </p>
+</section>
+
+<section>
+    <h3>Passwortmanager</h3>
+<<<<<<< HEAD
+    <p>Für jeden Dienst sollte ein eigenes Passwort verwendet werden.</p>
+=======
+    <p>Für jeden Dienst ein eigenes Password verwenden!</p>
+>>>>>>> Mobbing + Passwörter Cloud
+    <ul>
+        <li><a href="https://keepass.info" target="_blank">KeePass</a> oder <a href="https://www.keepassx.org" target="_blank">KeePassX</a></li>
+        <li><a href="https://1password.com" target="_blank">1password</a>
+        <li>etc.</li>
+    </ul>
+    <p>Passwörter sollten nicht in einer <a href="https://www.wired.com/2015/06/hack-brief-password-manager-lastpass-got-breached-hard/" target="_blank">Cloud</a> gespeichert werden</p>
+    <div role="note">* Cloud -> LastPass Breach</div>
+</section>
+
+<section>
+    <h3>Mobbing</h3>
+    <p>Psychoterror in der Schule</p>
+    <ul>
+        <li>Wie: andauernd, wiederholt, zielgerichtet</li>
+        <li>Was: Angriffe, Provokationen, Belästigungen, Nötigungen</li>
+        <li>Wozu: Ich bin groß und Du bist klein</li>
+    </ul>
+    <div role="note">
+        * Ich erniedrige Dich um mich zu erhöhen</br>
+        * Wer stark ist, hat dies nicht nötig - Deutschland Pokalsieger</br>
+    </div>
+</section>
+
+<section>
+    <h3>Mobbing</h3>
+    <p>Mobbing im Internet</p>
+    <ul>
+        <li>Anonym</li>
+        <li>Einfach</li>
+        <li>Reicht weit</li>
+    <div role="note">
+        * Mobbing gab es schon immer -> Mobbing im Internet<br/>
+        * Einfach: Nicht Face2Face - Feigheit<br/>
+    </div>
+</section>
+
+<section>
+    <h3>Mobbing</h3>
+    <div role="note">
+        # Rollen<br/>
+        * Opfer<br/>
+        * Alpha -> Täter / Bully<br/>
+        * Beta -> Adudant<br/>
+        * Gamma -> Zuschauer<br/>
+    </div>
+</section>
+
+<section>
+    <h3>Mobbing</h3>
+    <div role="note">An wenn kann ich mich weden</div>
+</section>
+
+<!-- Denn darueber hinaus..
+
+  Archive.org archiviert Informationen fuer das Gemeinwesen (und loescht auch sensible daten auf anfrage)
+
+  Andere Anbieter und Dienste haben eigene Interessen -->
+
+
+<section>
+    <h3>Das Internet vergisst nicht!</h3>
+    <ul>
+        <li><a href="https://archive.org/web/">Wayback Machine</a></li>
+        <li><a href="https://www.google.com/">Google Cache</a></li>
+    </ul>
+</section>
+
+<!-- Wieso stehen wir heute eigentlich vor euch?
+
+  Wie beschaeftigen wir uns mit dem Thema? -->
+
+<section>
+    <h2>Der CCC</h2>
+</section>
+
+<section>
+    <h3>CMS (Chaos Macht Schule)</h3>
+    <ul>
+        <li>CMS ist seit 2007 eine Initiative des CCC (Chaos Computer Clubs)</li>
+        <li>Ziel des Projekts ist es, Schüler, Eltern und Lehrer in den Bereichen Medienkompetenz und Technikverständnis zu stärken</li>
+    </ul>
+</section>
+
+<!-- Weitere Informationen -->
+
+<section>
+    <h3>Klicksafe.de</h3>
+    <p>Auf <a href=http://www.klicksafe.de>www.klicksafe.de</a> findet ihr Material zu:
+        <ul>
+            <li>Cybermobbing</li>
+            <li>Datenschutz</li>
+            <li>Internet Recht</li>
+            <li>Ethik</li>
+            <li>Filesharing</li>
+        </ul>
+</section>
+
+<section>
+    <h2>Mehr Informationen findet ihr auf</h2>
+    <p>https://muc.ccc.de</p>
+</section>
+
+
+<!--
+content
+-->
+
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+<style>
+    html,
+    .view body {
+        background-color: black;
+        counter-reset: slideidx;
+    }
+
+    body,
+    .view section {
+        background-color: #222222;
+        border-radius: 12px;
+        color: #FFBF00
+    }
+
+    /* A section is a slide. It's size is 800x600, and this will never change */
+
+    section,
+    .view head>title {
+        /* The font from Google */
+        font-family: 'Oswald', arial, serif;
+        font-size: 30px;
+    }
+
+    .view section:after {
+        counter-increment: slideidx;
+        content: counter(slideidx, decimal-leading-zero);
+        position: absolute;
+        bottom: -80px;
+        right: 100px;
+        color: white;
+    }
+
+    .view head>title {
+        color: white;
+        text-align: center;
+        margin: 1em 0 1em 0;
+    }
+
+    a:link {
+        color: #FFBF00;
+    }
+
+    a:visited {
+        color: #FFBF00;
+    }
+
+    h1 {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    h2 {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h3 {
+        margin: 50px 0 50px 50px;
+    }
+
+    h4 {
+        position: absolute;
+        top: 350px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    ul {
+        margin: 50px 75px 50px 100px;
+    }
+
+    li>ul {
+        margin: 15px 25px;
+    }
+
+    ol {
+        margin: 50px 75px 50px 100px;
+    }
+
+    li>ol {
+        margin: 15px 25px;
+    }
+
+    mark {
+        color: #222222;
+        background-color: #FFBF00;
+    }
+
+    p {
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+    p.subheadline {
+        text-align: center;
+    }
+
+    blockquote {
+        height: 100%;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+        padding: 50px;
+    }
+
+    blockquote:before {
+        content: open-quote;
+    }
+
+    blockquote:after {
+        content: close-quote;
+    }
+
+    /* Figures are displayed full-page, with the caption
+     on top of the image/video */
+
+    figure {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    figure.tint {
+        position: relative;
+        float: left;
+        opacity: .05;
+    }
+
+    figure.tint2 {
+        opacity: .15
+    }
+
+    figure>* {
+        position: absolute;
+    }
+
+    figure>img,
+    figure>video {
+        width: 100%;
+        height: 100%;
+    }
+
+    figcaption {
+        margin: 70px;
+        font-size: 50px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+        background-color: grey;
+        font-size: 24px;
+        border-top: 1px solid #CCC;
+    }
+
+
+    img.cent {
+        position: absolute;
+        max-width: 80%;
+        max-height: 90%;
+        top: 10%;
+        left: 10%;
+    }
+
+    img.cent:empty {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    /* Transition effect */
+
+    /* Feel free to change the transition effect for original
+     animations. See here:
+     https://developer.mozilla.org/en/CSS/CSS_transitions
+     How to use CSS3 Transitions: */
+
+    section {
+        -moz-transition: left 400ms linear 0s;
+        -webkit-transition: left 400ms linear 0s;
+        -ms-transition: left 400ms linear 0s;
+        transition: left 400ms linear 0s;
+    }
+
+    .view section {
+        -moz-transition: none;
+        -webkit-transition: none;
+        -ms-transition: none;
+        transition: none;
+    }
+
+    .view section[aria-selected] {
+        border: 5px red solid;
+    }
+
+    /* Before */
+
+    section {
+        left: -150%;
+    }
+
+    /* Now */
+
+    section[aria-selected] {
+        left: 0;
+    }
+
+    /* After */
+
+    section[aria-selected]~section {
+        left: +150%;
+    }
+
+    /* Incremental elements */
+
+    /* By default, visible */
+
+    .incremental>* {
+        opacity: 1;
+    }
+
+    /* The current item */
+
+    .incremental>*[aria-selected] {
+        opacity: 1;
+    }
+
+    /* The items to-be-selected */
+
+    .incremental>*[aria-selected]~* {
+        opacity: 0;
+    }
+
+    /* The progressbar, at the bottom of the slides, show the global
+     progress of the presentation. */
+
+    #progress-bar {
+        height: 2px;
+        background: #AAA;
+    }
+</style>
+
+
+
+<!-- {{{{ dzslides core
+#
+#
+#     __  __  __       .  __   ___  __
+#    |  \  / /__` |    | |  \ |__  /__`
+#    |__/ /_ .__/ |___ | |__/ |___ .__/ core :€
+#
+#
+# The following block of code is not supposed to be edited.
+# But if you want to change the behavior of these slides,
+# feel free to hack it!
+#
+-->
+
+<div id="progress-bar"></div>
+
+<!-- Default Style -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    [role="note"] {
+        display: none;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        width: 800px;
+        height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        display: none;
+    }
+
+    .view body {
+        position: static;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        overflow: visible;
+        overflow-x: hidden;
+        /* undo Dz.onresize */
+        transform: none !important;
+    }
+
+    .view head,
+    .view head>title {
+        display: block
+    }
+
+    section {
+        position: absolute;
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .view section {
+        pointer-events: auto;
+        position: static;
+        width: 800px;
+        height: 600px;
+        margin: -150px -200px;
+        float: left;
+
+        transform: scale(.4);
+    }
+
+    .view section>* {
+        pointer-events: none;
+    }
+
+    section[aria-selected] {
+        pointer-events: auto;
+    }
+
+    html {
+        overflow: hidden;
+    }
+
+    html.view {
+        overflow: visible;
+    }
+
+    body.loaded {
+        display: block;
+    }
+
+    .next:not([active]) {
+        visibility: hidden;
+    }
+
+    #progress-bar {
+        bottom: 0;
+        position: absolute;
+        transition: width 400ms linear 0s;
+    }
+
+    .view #progress-bar {
+        display: none;
+    }
+
+    header {
+        text-align: right;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    footer {
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .view header {
+        display: none;
+    }
+
+    .view footer {
+        display: none;
+    }
+
+    @media print {
+        section {
+            transition: none;
+            transform: none;
+            position: static;
+            page-break-inside: avoid;
+        }
+        body {
+            overflow: visible;
+        }
+        #progress-bar {
+            display: none;
+        }
+    }
+
+    /*
+   **************************************
+   Uncomment the following for 16:9 slides
+   **************************************
+
+  html { font-size: 12px; }
+  body { height: 450px; }
+  .view section {
+    height: 450px;
+    margin: -140px -200px;
+    transform: scale(.3);
+  }
+*/
+</style>
+
+<script>
+    var Dz = {
+        remoteWindows: [],
+        idx: -1,
+        step: 0,
+        html: null,
+        slides: null,
+        progressBar: null,
+        params: {
+            autoplay: "1"
+        }
+    };
+
+    Dz.init = function() {
+        document.body.className = "loaded";
+        this.slides = Array.prototype.slice.call($$("body > section"));
+        this.progressBar = $("#progress-bar");
+        this.html = document.body.parentNode;
+        this.setupParams();
+        this.onhashchange();
+        this.setupTouchEvents();
+        this.onresize();
+        this.setupView();
+    }
+
+    Dz.setupParams = function() {
+        var p = window.location.search.substr(1).split('&');
+        p.forEach(function(e, i, a) {
+            var keyVal = e.split('=');
+            Dz.params[keyVal[0]] = decodeURIComponent(keyVal[1]);
+        });
+        // Specific params handling
+        if (!+this.params.autoplay)
+            $$.forEach($$("video"), function(v) {
+                v.controls = true
+            });
+    }
+
+    Dz.onkeydown = function(aEvent) {
+        // Don't intercept keyboard shortcuts
+        if (aEvent.altKey ||
+            aEvent.ctrlKey ||
+            aEvent.metaKey ||
+            aEvent.shiftKey) {
+            return;
+        }
+        if (aEvent.keyCode == 37 // left arrow
+            ||
+            aEvent.keyCode == 38 // up arrow
+            ||
+            aEvent.keyCode == 33 // page up
+        ) {
+            aEvent.preventDefault();
+            this.back();
+        }
+        if (aEvent.keyCode == 39 // right arrow
+            ||
+            aEvent.keyCode == 40 // down arrow
+            ||
+            aEvent.keyCode == 34 // page down
+        ) {
+            aEvent.preventDefault();
+            this.forward();
+        }
+        if (aEvent.keyCode == 35) { // end
+            aEvent.preventDefault();
+            this.goEnd();
+        }
+        if (aEvent.keyCode == 36) { // home
+            aEvent.preventDefault();
+            this.goStart();
+        }
+        if (aEvent.keyCode == 32) { // space
+            aEvent.preventDefault();
+            this.toggleContent();
+        }
+        if (aEvent.keyCode == 70) { // f
+            aEvent.preventDefault();
+            this.goFullscreen();
+        }
+        if (aEvent.keyCode == 79 //o
+            ||
+            aEvent.keyCode == 27 //Esc
+        ) {
+            aEvent.preventDefault();
+            this.toggleView();
+        }
+    }
+
+    /* Touch Events */
+
+    Dz.setupTouchEvents = function() {
+        var orgX, newX;
+        var tracking = false;
+
+        var db = document.body;
+        db.addEventListener("touchstart", start.bind(this), false);
+        db.addEventListener("touchmove", move.bind(this), false);
+
+        function start(aEvent) {
+            aEvent.preventDefault();
+            tracking = true;
+            orgX = aEvent.changedTouches[0].pageX;
+        }
+
+        function move(aEvent) {
+            if (!tracking) return;
+            newX = aEvent.changedTouches[0].pageX;
+            if (orgX - newX > 100) {
+                tracking = false;
+                this.forward();
+            } else {
+                if (orgX - newX < -100) {
+                    tracking = false;
+                    this.back();
+                }
+            }
+        }
+    }
+
+    Dz.setupView = function() {
+        document.body.addEventListener("click", function(e) {
+            if (!Dz.html.classList.contains("view")) return;
+            if (!e.target || e.target.nodeName != "SECTION") return;
+
+            Dz.html.classList.remove("view");
+            Dz.setCursor(Dz.slides.indexOf(e.target) + 1);
+        }, false);
+    }
+
+    /* Adapt the size of the slides to the window */
+
+    Dz.onresize = function() {
+        var db = document.body;
+        var sx = db.clientWidth / window.innerWidth;
+        var sy = db.clientHeight / window.innerHeight;
+        var transform = "scale(" + (1 / Math.max(sx, sy)) + ")";
+        db.style.transform = transform;
+        db.style.marginTop = -db.clientHeight / 2 + "px";
+        db.style.marginLeft = -db.clientWidth / 2 + "px";
+    }
+
+
+    Dz.getNotes = function(aIdx) {
+        var s = $("section:nth-of-type(" + aIdx + ")");
+        var d = s.$("[role='note']");
+        return d ? d.innerHTML : "";
+    }
+
+    Dz.onmessage = function(aEvent) {
+        var argv = aEvent.data.split(" "),
+            argc = argv.length;
+        argv.forEach(function(e, i, a) {
+            a[i] = decodeURIComponent(e)
+        });
+        var win = aEvent.source;
+        if (argv[0] === "REGISTER" && argc === 1) {
+            this.remoteWindows.push(win);
+            this.postMsg(win, "REGISTERED", document.title, this.slides.length);
+            this.postMsg(win, "CURSOR", this.idx + "." + this.step);
+            return;
+        }
+        if (argv[0] === "BACK" && argc === 1)
+            this.back();
+        if (argv[0] === "FORWARD" && argc === 1)
+            this.forward();
+        if (argv[0] === "START" && argc === 1)
+            this.goStart();
+        if (argv[0] === "END" && argc === 1)
+            this.goEnd();
+        if (argv[0] === "TOGGLE_CONTENT" && argc === 1)
+            this.toggleContent();
+        if (argv[0] === "SET_CURSOR" && argc === 2)
+            window.location.hash = "#" + argv[1];
+        if (argv[0] === "GET_CURSOR" && argc === 1)
+            this.postMsg(win, "CURSOR", this.idx + "." + this.step);
+        if (argv[0] === "GET_NOTES" && argc === 1)
+            this.postMsg(win, "NOTES", this.getNotes(this.idx));
+    }
+
+    Dz.toggleContent = function() {
+        // If a Video is present in this new slide, play it.
+        // If a Video is present in the previous slide, stop it.
+        var s = $("section[aria-selected]");
+        if (s) {
+            var video = s.$("video");
+            if (video) {
+                if (video.ended || video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            }
+        }
+    }
+
+    Dz.setCursor = function(aIdx, aStep) {
+        // If the user change the slide number in the URL bar, jump
+        // to this slide.
+        aStep = (aStep != 0 && typeof aStep !== "undefined") ? "." + aStep : ".0";
+        window.location.hash = "#" + aIdx + aStep;
+    }
+
+    Dz.onhashchange = function() {
+        var cursor = window.location.hash.split("#"),
+            newidx = 1,
+            newstep = 0;
+        if (cursor.length == 2) {
+            newidx = ~~cursor[1].split(".")[0];
+            newstep = ~~cursor[1].split(".")[1];
+            if (newstep > Dz.slides[newidx - 1].$$('.next').length) {
+                newstep = 0;
+                newidx++;
+            }
+        }
+        this.setProgress(newidx, newstep);
+        if (newidx != this.idx) {
+            this.setSlide(newidx);
+        }
+        if (newstep != this.step) {
+            this.setIncremental(newstep);
+        }
+        for (var i = 0; i < this.remoteWindows.length; i++) {
+            this.postMsg(this.remoteWindows[i], "CURSOR", this.idx + "." + this.step);
+        }
+    }
+
+    Dz.back = function() {
+        if (this.idx == 1) {
+            return;
+        }
+        this.setCursor(this.idx - 1,
+            this.slides[this.idx - 2].$$('.next[active]').length);
+    }
+
+    Dz.forward = function() {
+        if (this.idx >= this.slides.length &&
+            this.step >= this.slides[this.idx - 1].$$('.next').length) {
+            return;
+        }
+        if (this.html.classList.contains("view") ||
+            this.step >= this.slides[this.idx - 1].$$('.next').length) {
+            this.setCursor(this.idx + 1,
+                this.slides[this.idx].$$('.next[active]').length);
+        } else {
+            this.setCursor(this.idx, this.step + 1);
+        }
+    }
+
+    Dz.goStart = function() {
+        this.setCursor(1, 0);
+    }
+
+    Dz.goEnd = function() {
+        var lastIdx = this.slides.length;
+        var lastStep = this.slides[lastIdx - 1].$$('.next').length;
+        this.setCursor(lastIdx, lastStep);
+    }
+
+    Dz.toggleView = function() {
+        this.html.classList.toggle("view");
+
+        if (this.html.classList.contains("view")) {
+            $("section[aria-selected]").scrollIntoView(true);
+        }
+    }
+
+    Dz.setSlide = function(aIdx) {
+        this.idx = aIdx;
+        var old = $("section[aria-selected]");
+        var next = $("section:nth-of-type(" + this.idx + ")");
+        if (old) {
+            old.removeAttribute("aria-selected");
+            var video = old.$("video");
+            if (video) {
+                video.pause();
+            }
+        }
+        if (next) {
+            next.setAttribute("aria-selected", "true");
+            if (this.html.classList.contains("view")) {
+                next.scrollIntoView();
+            } else {
+                var video = next.$("video");
+                if (video && !!+this.params.autoplay) {
+                    video.play();
+                }
+            }
+        } else {
+            // That should not happen
+            this.idx = -1;
+            // console.warn("Slide doesn't exist.");
+        }
+    }
+
+    Dz.setIncremental = function(aStep) {
+        this.step = aStep;
+        var incrementals = Array.prototype.slice.call(this.slides[this.idx - 1].$$('.next')).sort(function(a, b) {
+            return Number(a.getAttribute('next-order')) - Number(b.getAttribute('next-order'));
+        });
+        var next = incrementals[this.step - 1];
+        if (next) {
+            next.setAttribute('active', true);
+        } else {
+            this.setCursor(this.idx, 0);
+        }
+        return next;
+    }
+
+    Dz.goFullscreen = function() {
+        var html = $('html'),
+            requestFullscreen = html.requestFullscreen || html.requestFullScreen || html.mozRequestFullScreen || html.webkitRequestFullScreen;
+        if (requestFullscreen) {
+            requestFullscreen.apply(html);
+        }
+    }
+
+    Dz.setProgress = function(aIdx, aStep) {
+        var slide = $("section:nth-of-type(" + aIdx + ")");
+        if (!slide)
+            return;
+        var steps = slide.$$('.next').length + 1,
+            slideSize = 100 / (this.slides.length - 1),
+            stepSize = slideSize / steps;
+        this.progressBar.style.width = ((aIdx - 1) * slideSize + aStep * stepSize) + '%';
+    }
+
+    Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
+        aMsg = [aMsg];
+        for (var i = 2; i < arguments.length; i++)
+            aMsg.push(encodeURIComponent(arguments[i]));
+        aWin.postMessage(aMsg.join(" "), "*");
+    }
+
+    function init() {
+        Dz.init();
+        window.onkeydown = Dz.onkeydown.bind(Dz);
+        window.onresize = Dz.onresize.bind(Dz);
+        window.onhashchange = Dz.onhashchange.bind(Dz);
+        window.onmessage = Dz.onmessage.bind(Dz);
+    }
+
+    window.onload = init;
+
+    // Helpers
+    if (!Function.prototype.bind) {
+        Function.prototype.bind = function(oThis) {
+
+            // closest thing possible to the ECMAScript 5 internal IsCallable
+            // function
+            if (typeof this !== "function")
+                throw new TypeError(
+                    "Function.prototype.bind - what is trying to be fBound is not callable"
+                );
+
+            var aArgs = Array.prototype.slice.call(arguments, 1),
+                fToBind = this,
+                fNOP = function() {},
+                fBound = function() {
+                    return fToBind.apply(this instanceof fNOP ? this : oThis || window,
+                        aArgs.concat(Array.prototype.slice.call(arguments)));
+                };
+
+            fNOP.prototype = this.prototype;
+            fBound.prototype = new fNOP();
+
+            return fBound;
+        };
+    }
+
+    var $ = (HTMLElement.prototype.$ = function(aQuery) {
+        return this.querySelector(aQuery);
+    }).bind(document);
+
+    var $$ = (HTMLElement.prototype.$$ = function(aQuery) {
+        return this.querySelectorAll(aQuery);
+    }).bind(document);
+
+    $$.forEach = function(nodeList, fun) {
+        Array.prototype.forEach.call(nodeList, fun);
+    }
+</script>
+<!-- vim: set fdm=marker: }}} -->
